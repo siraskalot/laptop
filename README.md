@@ -43,7 +43,7 @@ What it sets up
 * Rbenv for managing versions of the Ruby programming language
 * SQLite for test data
 * Sinatra for quick prototyping
-* DataMapper and relevant for Sinatra
+* DataMapper and relevant adapters for Sinatra
 * Ruby Build for installing Rubies
 * Ruby stable for writing general-purpose code
 * SSH public key for authenticating with Github and Heroku
