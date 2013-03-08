@@ -36,8 +36,8 @@ echo "Installing Postgres, a good open source relational database ..."
   successfully brew install postgres --no-python
   successfully initdb /usr/local/var/postgres -E utf8
 
-echo "Installing Redis, a good key-value database ..."
-  successfully brew install redis
+echo "Installing SQLite, a database for testing ..."
+  successfully brew install sqlite
 
 echo "Installing The Silver Searcher (better than ack or grep) for searching the contents of files ..."
   successfully brew install the_silver_searcher
@@ -83,6 +83,9 @@ echo "Update to latest Rubygems version ..."
 
 echo "Installing critical Ruby gems for Rails development ..."
   successfully gem install bundler foreman pg rails thin --no-document
+
+echo "Installing more Ruby gems for web development ..."
+  successfully gem install sinatra jekyll data_mapper dm-sqlite-adapter dm-postgres-adapter nokogiri mechanize --no-document
 
 echo "Installing GitHub CLI client ..."
   successfully gem install hub --no-document
