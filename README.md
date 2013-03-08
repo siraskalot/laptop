@@ -2,6 +2,7 @@ Laptop
 ======
 
 Laptop is a script to set up a Mac OS X laptop for web development.
+
 **This is a customised version!** See [original repo](https://github.com/thoughtbot/laptop) for the vanilla version.
 
 Requirements
