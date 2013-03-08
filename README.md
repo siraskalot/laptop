@@ -1,7 +1,7 @@
 Laptop
 ======
 
-Laptop is a script to set up a Mac OS X laptop for Rails development.
+Laptop is a script to set up a Mac OS X laptop for web development.
 
 Requirements
 ------------
@@ -23,7 +23,7 @@ Install
 
 Run the script:
 
-    zsh <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    zsh <(curl -s https://raw.github.com/askalot/laptop/master/mac)
 
 What it sets up
 ---------------
@@ -41,7 +41,9 @@ What it sets up
 * Qt for headless JavaScript testing via Capybara Webkit
 * Rails gem for writing web applications
 * Rbenv for managing versions of the Ruby programming language
-* Redis for storing key-value data
+* SQLite for test data
+* Sinatra for quick prototyping
+* DataMapper and relevant for Sinatra
 * Ruby Build for installing Rubies
 * Ruby stable for writing general-purpose code
 * SSH public key for authenticating with Github and Heroku
